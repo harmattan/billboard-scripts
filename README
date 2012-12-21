@@ -1,0 +1,14 @@
+
+User Scripts for Billboard
+==========================
+
+This is a collection of user scripts that you can use with Billboard.
+For these scripts, you usually need to install at least Python and its
+D-Bus bindings, you can do this as root like this:
+
+    apt-get install python python-dbus
+
+
+Billboard website: http://thp.io/2012/billboard/
+Support thread: http://talk.maemo.org/showthread.php?t=84507
+
