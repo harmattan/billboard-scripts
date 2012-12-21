@@ -49,4 +49,4 @@ else:
     else:
         next_alarm = L[findme_int + 1]
 
-print next_alarm[2:]
+print next_alarm[2:].encode('utf-8')
