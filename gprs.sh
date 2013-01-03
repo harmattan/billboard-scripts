@@ -1,6 +1,7 @@
 #!/bin/sh
-
 # Get GPRS transmission separated in up&down in MB
+# Author: thedead1440
+# Source: http://talk.maemo.org/showpost.php?p=1309420&postcount=402
 
 tx=$(gconftool -g /cellui/settings/datacounter/transfer/gprs_home_tx_bytes)
 rx=$(gconftool -g /cellui/settings/datacounter/transfer/gprs_home_rx_bytes)
