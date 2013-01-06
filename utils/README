@@ -1,0 +1,4 @@
+This directory contains some scripts that are not used directly
+by/with Billboard using the {script:} tag, but instead can be
+used in combination with other scripts to reset/change the script
+behavior or change the Billboard text without the {script:} tag.
