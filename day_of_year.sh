@@ -2,5 +2,5 @@
 # Day of Year
 # Author: Thomas Perl
 
-echo $(($(date +%j)))
+echo $(date +%j)
 
