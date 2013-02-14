@@ -1,0 +1,13 @@
+#!/usr/bin/python
+# by:slarti
+# Find out if PowerSavingMode is on or off.
+
+import QmSystem
+
+psm = QmSystem.QmDeviceMode()
+psmstate = psm.getPSMState()
+
+if psmstate == psm.PSMStateOff:
+        print 'PSM off'
+if psmstate == psm.PSMStateOn:
+        print 'PSM on'
